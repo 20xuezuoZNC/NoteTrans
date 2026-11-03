@@ -1,0 +1,25 @@
+{
+  "general": {
+    "hotkey_screenshot": "alt+q",
+    "hotkey_toggle_window": "alt+w",
+    "enable_selection_trigger": true,
+    "mini_button_timeout": 3.0,
+    "auto_hide_on_blur": true,
+    "theme": "light"
+  },
+  "translation": {
+    "provider": "bing",
+    "target_lang": "auto",
+    "openai": {
+      "base_url": "https://api.siliconflow.cn/v1",
+      "api_key": "",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "temperature": 0.3,
+      "system_prompt": "You are a professional, accurate translator. Translate the given text directly into the target language. Do not add explanations, conversational phrases, or quotes. Output ONLY the translation."
+    }
+  },
+  "ocr": {
+    "engine": "rapidocr",
+    "auto_copy_ocr": false
+  }
+}
